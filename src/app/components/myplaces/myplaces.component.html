@@ -1,0 +1,22 @@
+Number of subway stations in table is: {{finalLimit}}
+<table>
+  <caption>City of New York Subway Stations</caption>
+  <tr><th>ROW#</th><th>LINE</th><th>LOCATION</th></tr>
+  <tr *ngFor="let subway of subwayStations; let i = index">
+    <td>
+      {{i+1}}
+    </td>
+    <td>
+      {{subway.line}}
+    </td>
+    <td>
+      {{subway.name}}
+    </td>
+    <td>
+      <a href="http://maps.google.com?q={{subway.the_geom.coordinates[0]}},{{subway.the_geom.coordinates[1]}}">Click to locate</a>
+    </td>
+  </tr>
+</table>
+
+
+

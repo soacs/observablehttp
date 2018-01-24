@@ -1,0 +1,41 @@
+
+table {
+  width: 50%;
+}
+
+caption {
+  background-color: deepskyblue;
+  color: rgb(0, 0, 0);
+  font: 700 24px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+th {
+  background-color: turquoise;
+  color: rgb(0, 0, 0);
+  font: 700 14px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+div {
+  background-color: turquoise;
+  color: rgb(0, 0, 0);
+  font: 700 18px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: #b2dba1;
+  font: 700 24px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}

@@ -1,20 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import {BrowserModule} from '@angular/platform-browser'
+import {NgModule}  from '@angular/core';
+import {HttpModule} from '@angular/http';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MyPlacesService} from 'app/services/myplaces.service';
+import {AppComponent} from 'app/components/application/app.component';
+import {MyPlacesComponent} from 'app/components/myplaces/myplaces.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
-  providers: [],
+  imports: [BrowserModule, HttpModule, ReactiveFormsModule],
+  declarations: [AppComponent, MyPlacesComponent],
+  providers: [MyPlacesService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

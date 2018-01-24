@@ -1,0 +1,14 @@
+
+<form [formGroup]="formModel" (ngSubmit)="onSubmit()" novalidate>
+
+  <div>Limit:
+    <input type="text" formControlName="limit">
+    <span [hidden]="!formModel.hasError('minLength', 'limit')">Required</span>
+
+  </div>
+  <button type="submit">Submit</button>
+</form>
+<br>
+<myplaces [rowNumber]="limit"></myplaces>
+
+

@@ -1,0 +1,35 @@
+
+div {
+  background-color: turquoise;
+  color: rgb(0, 0, 0);
+  font: 700 18px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: #b2dba1;
+  font: 700 24px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+
+caption {
+  color: rgb(0, 0, 0);
+  text-color: blue;
+  font: 700 24px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+
+span {
+  background-color: turquoise;
+  color: red;
+  font: 700 18px Open Arial;
+  top: 0px;
+  margin: 0px;
+  padding: 5px;
+}
